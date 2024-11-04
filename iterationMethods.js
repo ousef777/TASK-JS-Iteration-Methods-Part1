@@ -56,7 +56,7 @@ function toCelsius(temperatures) {
 // 3) using `hottestDays` function return an array of temperatures that exceed the threshold
 function hottestDays(temperatures, threshold) {
   // write your code here...
-  return numbers.filter((value, index, array) => value > threshold);
+  return temperatures.filter((value, index, array) => value > threshold);
 }
 
 // 4) Using `logHottestDays` function log temperatures that exceed the threshold to the console IN DEGREES CELSIUS  (hint: you can combine all previous functions)
